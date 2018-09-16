@@ -37,4 +37,4 @@ Using these is as simple as copying in the new files. So removing them and "goin
 Disclaimer: These are not supported by the makers of ProPresenter 6. Use at your own risk. Feel free to read the files in a text-editor and check for any obvious problems.  If you decide to go back a standard "clean" install - just remove the files that you added. 
 
 
-TODO: I'd like to get a bit smarter with the rotation effect and auto-scale any media that is rotated 90 or 270 degrees so that it fits the output.  For now, you have to manually scale it down when rotating 90 or 270 degrees.
+TODO: I'd like to get a bit smarter with the rotation effect and auto-scale any media that is rotated 90 or 270 degrees so that it fits the output.  For now, you have to manually scale it down when rotating 90 or 270 degrees. I really should make it Scale first, and then rotate the scaled iamge and then translate last.....yep that would be much nicer...if only I knew GLSL better!!! ;)
