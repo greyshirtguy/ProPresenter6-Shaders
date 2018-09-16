@@ -34,3 +34,6 @@ How to remove?
 Using these is as simple as copying in the new files. So removing them and "going clean" is just as simple as removing (deleting) any custom shader files you copied.  I have prefixed them all with "Dan*" so they are all listed together when you look at the folder and sort by name.
 
 Disclaimer: These are not supported by the makers of ProPresenter 6. Use at your own risk. Feel free to read the files in a text-editor and check for any obvious problems.  If you decide to go back a standard "clean" install - just remove the files that you added. 
+
+
+TODO: I'd like to get a bit smarter with the rotation effect and auto-scale any media that is rotated 90 or 270 degrees to that it fits the output.  For now, you have to manually scale it down when rotating 90 or 270 degrees.
