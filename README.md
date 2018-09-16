@@ -5,7 +5,9 @@ Each media effect (Color Invert, Blur, Adjust Color etc) in ProPresenter 6 is ac
 
 These files, which define each effect, are human readable text files.  Two of the three files are standard GLSL files (.frag and .vert), and the third is proprietry format that descibes the effect name and adjustable parameters (.rvfx).
 
-I have found (much to my surprise and joy) that you can create your own files for new effects and simply copy them to the folder where ProPresenter keeps all it's standard effects files - and ProPresenter will add and use your new effect.
+I have found (much to my surprise and joy) that you can create your own files for new effects and simply copy them to the folder where ProPresenter keeps all its standard effects files - and ProPresenter will add and use your new effect.
+
+So a single effect in Pro6 is actually made of three files - Which you and I can edit or create!
 
 I don't know GLSL at all, but I was able to read the existing effects files and figure out how to add a few effects that I always wished ProPresenter had: Rotation, Scale and Translation of media.  Finally I have a way to rotate those pesky videos and images that I sometime get from mobile phones in all sorts of wonderful orientations.
 
