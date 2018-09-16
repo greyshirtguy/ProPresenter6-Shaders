@@ -19,7 +19,7 @@ Tips:
 * To rotate a phone image/video - you will typically want 90, 180, or 270 degrees - it's more accurate to type this than to use the slider to adjust the angle.
 * If you rotate "sideways" (90 or 270), you will need to manually scale the media down to fit the screen. *Start* by scaling the Y (height) until that fits the height of your output screen and simply copy that scale from the Y to the X scale to keep the "aspect ratio" correct.
 * The scale has separate controls for X (width) and Y (height) - make them the same to keep the aspect ratio the same as the original. (Feel free to make them different to fix stretched videos/pictures too!)
-* Order matters - you will need to get use to that. The order of operations for the Rotate, Scale Translate effect is the same as it's name: It will FIRST Rotate, and after the image is rotated then it will scale the rotated image and finally translate the result.
+* Order matters - if you think about it, the same rotation, scale and translation applied in different order can have very different end results. FYI. The order of operations for this custom effect called "Rotate, Scale Translate" is the same as it's name: It will FIRST Rotate, and after the image is rotated then it will scale the rotated image and finally translate the result.
 
 To Download, choose the "Clone or Download" green button and choose "Download Zip" to save the zip file which contains all the shader files. (I might add more one day - or maybe *you* will!).  Extract the zip and decide which effect files you want to copy.
 
