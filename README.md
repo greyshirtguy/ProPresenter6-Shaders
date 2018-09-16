@@ -1,5 +1,5 @@
 # ProPresenter6-Shaders
-Have you ever wished in ProPresenter 6, that you could simply rotate one of those pesky videos/images that you sometimes get from mobile phones?.....
+Have you ever wished in ProPresenter 6, that you could simply rotate one of those pesky videos/images that you sometimes get from mobile phones?.....You know the ones that display sideways or upside down.
 
 Each media effect (Color Invert, Blur, Adjust Color etc) in ProPresenter 6 is actually made up of 3 files which are located in the program folder of ProPresenter 6.  This is true for both the MacOS and Windows versions of ProPresenter 6.
 
