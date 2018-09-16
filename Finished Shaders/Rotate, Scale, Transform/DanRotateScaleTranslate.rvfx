@@ -1,0 +1,42 @@
+<name:"Rotate, Scale, Translate" /name>
+<uuid:"01014B36-E073-4587-A04F-4EDED814AB62" /uuid>
+<desc:"Adjust RST." /desc>
+//<iconFilename: "AdjustColor.jpg"
+<shaderFile:"DanRotateScaleTranslate"
+<auxStream:
+<customGeomFile:
+<type:0
+<numPasses:1 /numPasses>
+<usesAux:0
+<usesAudio:0
+<usesFA:0
+<usesFB:0
+<usesFL:0
+<usesInA:0
+<usesInB:0
+<var:"Rotation" label:"Rotation" desc:"Adjust Rotation" type:1 min:0,0,0,0 max:360,360,360,360 defValue:0.,0.,0.,0 value:0.,0.,0.,0. /var>
+<var:"XScale" label:"X Scale" desc:"Adjust X Scale" type:1 min:0,0,0,0 max:5,5,5,5 defValue:1.,1.,1.,1. value:1,1,1,1 /var>
+<var:"YScale" label:"Y Scale" desc:"Adjust Y Scale" type:1 min:0,0,0,0 max:5,5,5,5 defValue:1.,1.,1.,1. value:1,1,1,1 /var>
+<var:"Xoffset" label:"X Offset" desc:"Adjust X Offset" type:1 min:-4000,-4000,-4000,-4000 max:4000,4000,4000,4000 defValue:0.,0.,0.,0. value:1,1,1,1 /var>
+<var:"Yoffset" label:"Y Offset" desc:"Adjust Y Offset" type:1 min:-4000,-4000,-4000,-4000 max:4000,4000,4000,4000 defValue:0.,0.,0.,0. value:0.,0.,0.,0. /var>
+
+
+//        char *name;                 //cannot have spaces or special characters
+//        char *desc;
+//        char *iconFilename;
+//        char *vertexShaderFile;
+//        char *fragmentShaderFile;
+//        char *auxStream;            //optional, file or url for aux input, can be audio only
+//        char *customGeomFile;       //optional, file for geometery to use
+//        int type;                   //0=transition, 1=fx
+//        int numModes;               //can be zero
+//        ssFXModeType *modes;        //array of modes
+//        int numVars;                //number of variables global to the effect
+//        ssFXVarType *vars;          //array of variables
+//        bool usesAux;               //uses the aux stream
+//        bool usesInA;               //uses A input
+//        bool usesInB;               //uses B input
+//        bool usesFA;                //uses Feedback Channel A
+//        bool usesFB;                //uses Feedback Channel B
+//        bool usesFL;                //uses Feedback Channel for the Layer
+//        int usesAudio;              //0=no audio, 1=audio of video, 2=audio of auxStream, 3=audio of renderer

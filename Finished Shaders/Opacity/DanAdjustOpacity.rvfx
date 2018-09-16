@@ -1,0 +1,37 @@
+<name:"Adjust Opacity" /name>
+<uuid:"E84639F6-A617-4F87-B46F-0058748556C2" /uuid>
+<desc:"Adjust Opacity." /desc>
+//<iconFilename: "AdjustColor.jpg"
+<shaderFile:"DanAdjustOpacity"
+<auxStream:
+<customGeomFile:
+<type:0
+<numPasses:1 /numPasses>
+<usesAux:0
+<usesAudio:0
+<usesFA:0
+<usesFB:0
+<usesFL:0
+<usesInA:0
+<usesInB:0
+<var:"Opacity" label:"Opacity" desc:"Adjust Opacity" type:1 min:0,0,0,0 max:1,1,1,1 defValue:1.,1.,1.,1 value:1,1,1,1 /var>
+
+//        char *name;                 //cannot have spaces or special characters
+//        char *desc;
+//        char *iconFilename;
+//        char *vertexShaderFile;
+//        char *fragmentShaderFile;
+//        char *auxStream;            //optional, file or url for aux input, can be audio only
+//        char *customGeomFile;       //optional, file for geometery to use
+//        int type;                   //0=transition, 1=fx
+//        int numModes;               //can be zero
+//        ssFXModeType *modes;        //array of modes
+//        int numVars;                //number of variables global to the effect
+//        ssFXVarType *vars;          //array of variables
+//        bool usesAux;               //uses the aux stream
+//        bool usesInA;               //uses A input
+//        bool usesInB;               //uses B input
+//        bool usesFA;                //uses Feedback Channel A
+//        bool usesFB;                //uses Feedback Channel B
+//        bool usesFL;                //uses Feedback Channel for the Layer
+//        int usesAudio;              //0=no audio, 1=audio of video, 2=audio of auxStream, 3=audio of renderer
