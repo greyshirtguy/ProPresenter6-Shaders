@@ -17,7 +17,7 @@ To use one of these effects copy the three files that make the effect to the fol
 
 Tips:
 * To rotate a phone image/video - you will typically want 90, 180, or 270 degrees - it's more accurate to type this than to use the slider to adjust the angle.
-* If you rotate 90 or 270, you will need to manually scale the media down to fit the screen. *Start* by scaling the Y (height) until that fits and simply match the X (width) scale
+* If you rotate "sideways" (90 or 270), you will need to manually scale the media down to fit the screen. *Start* by scaling the Y (height) until that fits and simply match the X (width) scale
 * The scale has separate controls for X (width) and Y (height) - make them the same to keep the aspect ratio the same as the original. (Feel free to make them different to fix stretched videos/pictures too!)
 * Order matters - you will need to get use to that. The order of operations for the Rotate, Scale Translate effect is the same as it's name: It will FIRST Rotate, and after the image is rotated then it will scale the rotated image and finally translate the result.
 
