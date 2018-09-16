@@ -18,7 +18,7 @@ Tips:
 * The scale is done in X and Y as separate controls - make them the same to keep the aspect ratio the same as the original. (Feel free to make them different to fix stretched videos/pictures too!)
 * Order matters - you will need to get use to that. The order of operations for the Rotate, Scale Translate effect is the same as it's name: Rotate FIRST, scale the rotated image SECOND and finally translate the result.
 
-To Download, choose the "Clone or Download" green button and choose "Download Zip" to save the zip file which contains all the shader files. (I might add more one day).  Extract the zip and decide which effect files you want to copy.
+To Download, choose the "Clone or Download" green button and choose "Download Zip" to save the zip file which contains all the shader files. (I might add more one day - or maybe *you* will!).  Extract the zip and decide which effect files you want to copy.
 
 So where do I copy the three files for a new custom effect?
 
