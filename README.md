@@ -1,8 +1,6 @@
 # ProPresenter6-Shaders
 Have you ever wished you could simply rotate one of those pesky videos/images that you sometimes get from mobile phones?.....
 
-GLSL shaders used to add new media effects to ProPresenter 6
-
 Each media effect (Color Invert, Blur, Adjust Color etc) in ProPresenter 6 is actually made up of 3 files which are located in the program folder of ProPresenter 6.  This is true for both the MacOS and Windows versions of ProPresenter 6.
 
 These files, which define each effect, are human readable text files.  Two of the three files are standard GLSL files (.frag and .vert), and the third is proprietry format that descibes the effect name and adjustable parameters (.rvfx).
