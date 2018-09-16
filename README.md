@@ -7,7 +7,7 @@ These files, which define each effect, are human readable text files.  Two of th
 
 I have found (much to my surprise and joy) that you can create your own files for new effects and simply copy them to the folder where ProPresenter keeps all it's standard effects files - and ProPresenter will add and use your new effect.
 
-I don't know GLSL at all, but I was able to read the existing effects files and figure out how to add a few effects that I always wished ProPresenter had: Rotation, Scale and Translation of media.  Finally I have a way to rotate those pesky videos and images that from mobile phones in all sorts of wonderful orientations.
+I don't know GLSL at all, but I was able to read the existing effects files and figure out how to add a few effects that I always wished ProPresenter had: Rotation, Scale and Translation of media.  Finally I have a way to rotate those pesky videos and images that I sometime get from mobile phones in all sorts of wonderful orientations.
 
 The first effect I created was for opacity - I have included that here just for kick really, as I am not sure if there is any valid use for it - other than being a good "Hello World" experience for me getting started in this exercise.
 
