@@ -13,7 +13,7 @@ I don't know GLSL at all, but I was able to read the existing effects files and 
 
 By the way, the first effect I created was for opacity - I have included that here just for kick really, as I am not sure if there is any valid use for it - other than being a good "Hello World" experience for me getting started in this exercise.
 
-To use one of these effects copy the three files that make the effect to the folder where ProPresenter 6 stores all it's media effects files and then (re)start ProPresenter 6, now right click any slide with a media cue (or any media in the Video/Image bin) and select "Properties" and go to the effects panel where you will see the new effect included in the list of standard effects.
+To use one of these effects copy the three files that make the effect to the folder where ProPresenter 6 stores all it's media effects files and then (re)start ProPresenter 6, right-click any slide with a media cue (or any media in the Video/Image bin) and select "Properties" and go to the effects panel where you will see the new effect included in the list of standard effects.
 
 Tips:
 * To rotate a phone image/video - you will typically want 90, 180, or 270 degrees - it's more accurate to type this than to use the slider to adjust the angle.
