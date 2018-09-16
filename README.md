@@ -23,6 +23,7 @@ So where do I copy the three files for a new custom effect?
 The Standard locations for media effect files for ProPresenter 6:
 
 MacOS: /Applications/ProPresenter 6.app/Contents/Frameworks/ssAPI.framework/Versions/A/Resources
+
 Windows: C:\Program Files (x86)\Renewed Vision\ProPresenter 6\shaders
 
 How to remove?
