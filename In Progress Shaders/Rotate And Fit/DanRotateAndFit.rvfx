@@ -1,5 +1,5 @@
 <name:"Rotate And Fit" /name>
-<uuid:"B6233D6C-E360-4348-817A-28BD0A437190 /uuid>
+<uuid:"B6233D6C-E360-4348-817A-28BD0A437190" /uuid>
 <desc:"Rotate and auto-scale to fit output" /desc>
 //<iconFilename: "AdjustColor.jpg"
 <shaderFile:"DanRotateAndFit"
@@ -14,7 +14,7 @@
 <usesFL:0
 <usesInA:0
 <usesInB:0
-<var:"Rotation" label:"Rotation" desc:"Adjust Rotation" type:1 min:0,0,0,0 max:360,360,360,360 defValue:0.,0.,0.,0 value:0.,0.,0.,0. /var>
+<var:"Rotation" label:"Qtr Rotations" desc:"Adjust Rotation" type:1 min:0,0,0,0 max:3,3,3,3 defValue:0.,0.,0.,0 value:0.,0.,0.,0. /var>
 
 
 //        char *name;                 //cannot have spaces or special characters
