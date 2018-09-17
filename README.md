@@ -16,12 +16,12 @@ By the way, the first effect I created was for opacity - I have included that he
 To use one of these effects copy the three files that make the effect to the folder where ProPresenter 6 stores all it's media effects files and then (re)start ProPresenter 6, right-click any slide with a media cue (or any media in the Video/Image bin) and select "Properties" and go to the effects panel where you will see the new effect included in the list of standard effects.
 
 Tips:
-* Most people probaly just want the "Simple Rotate" - the other shaders are of questionable value.
+* Most people probably just want the "Simple Rotate" - the other shaders are of questionable value!
 * To rotate a phone image/video - you will typically want 90, 180, or 270 degrees - The Simple Rotate effect makes this pretty easy.  Just slide the "Qtr Rotations" slider and watch your media snap to one of these rotations.
 * If the source image is not the same aspect-ratio of your output, you may have to change it from "Scale to Fit" to "Scale to Fill" and then adjust the scale slider after the rotation to make it fit on the screen.
-* The scaling is linear - no fancy smoothing - things can get a bit "jaggy" with lower resolutions (more noticeable with images than video)
+* The scaling is linear - no fancy smoothing - things can get a bit "jaggy" with lower resolutions (This is more noticeable with still images than moving video)
 * The "Rotate, Scale, Transform effect gives you lots of control, but you have to adjust more manually!
-* Having separate scale controls for X (width) and Y (height) can be useful if you get a stretched video.
+* The "Rotate, Scale, Transform effect has separate scale controls for X (width) and Y (height) which be useful if you get a stretched video - you can fix the stretch.
 * Order matters - if you think about it, the same rotation, scale and translation applied in different order can have very different end results. The "Rotate, Scale, Transform" effect will FIRST Rotate, and after the image is rotated then it will translate the rotated image and finally scale the result.  This is not an ideal order and if I figure it out, I'll update the order to scale -> rotate -> translate as that tends to more aligned with what people tend to naturally expect!
 
 To Download, choose the "Clone or Download" green button and choose "Download Zip" to save the zip file which contains all the shader files. (I might add more one day - or maybe *you* will!).  Extract the zip and decide which effect files you want to copy.
