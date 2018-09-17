@@ -17,6 +17,7 @@ To use one of these effects copy the three files that make the effect to the fol
 
 Tips:
 * To rotate a phone image/video - you will typically want 90, 180, or 270 degrees - it's more accurate to type this than to use the slider to adjust the angle.
+* If your original image/video is *taller* than it is wide, then you will will need to also change the media properties to "Stretch To Fill" so trigger Pro6 to use the full size of the output screen and then manually scale it back to original aspect ratio.
 * If you rotate "sideways" (90 or 270), you will need to manually scale the media down to fit the screen. *Start* by scaling the Y (height) until that fits the height of your output screen and simply copy that scale from the Y to the X scale to keep the "aspect ratio" correct.
 * The scale has separate controls for X (width) and Y (height) - make them the same to keep the aspect ratio the same as the original. (Feel free to make them different to fix stretched videos/pictures too!)
 * Order matters - if you think about it, the same rotation, scale and translation applied in different order can have very different end results. Therefore, it helps to know the order of operations for this custom effect called "Rotate, Scale Translate" is the same as it's name: It will FIRST Rotate, and after the image is rotated then it will scale the rotated image and finally translate the result.  This is not an ideal order and if I figure it out, I'll update it to scale, rotate, translate as that tends to more what people expect!
