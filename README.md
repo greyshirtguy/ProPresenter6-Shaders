@@ -40,4 +40,4 @@ Using these is as simple as copying in the new files. So removing them and "goin
 Disclaimer: These are not supported by the makers of ProPresenter 6. Use at your own risk. Feel free to read the files in a text-editor and check for any obvious problems.  If you decide to go back a standard "clean" install - just remove the files that you added. 
 
 
-TODO: I wish I could find a way to auto scale the output to fit - but I'm not sure it's possible (since Pro6 probably does not send and vars to the shader that tell it the oringal size of the image or output size.
+TODO: I wish I could find a way to auto-scale the image to fit the output size - but I'm not sure it's possible (since Pro6 probably does not send the required info about the current output size or the oringial image size to the shader.
