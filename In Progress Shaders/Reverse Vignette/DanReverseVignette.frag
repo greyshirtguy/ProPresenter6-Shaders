@@ -25,7 +25,7 @@ void main()
     float dist1=distance(fsPosition,vec3(-0.5,vertpos,0.0));
 	float dist2=distance(fsPosition,vec3(0.5,vertpos,0.0));
 	float dist=(dist1+dist2)/4;
-    float darken=1.0-clamp((fsOuterRadius-dist)/(fsOuterRadius-fsInnerRadius),0.0,darkness);
+    float darken=1.0-clamp(darkness*(fsOuterRadius-dist)/(fsOuterRadius-fsInnerRadius),0.0,1.0);
     outColor.rgb=texel.rgb*darken;
     outColor.a=texel.a;
 }
