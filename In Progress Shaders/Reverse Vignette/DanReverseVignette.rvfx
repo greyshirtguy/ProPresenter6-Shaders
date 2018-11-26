@@ -1,0 +1,39 @@
+<name:"ReverseVignette" /name>
+<uuid:"5E589212-041B-43E0-9C10-7C16680A8490" /uuid>
+<desc:"Adjustable Blurry Blob" /desc>
+<iconFilename: "Blur.jpg"
+<shaderFile:"DanReverseVignette"
+<auxStream:
+<customGeomFile:
+<type:0
+<numPasses:1 /numPasses>
+<usesAux:0
+<usesAudio:0
+<usesFA:0
+<usesFB:0
+<usesFL:0
+<usesInA:0
+<usesInB:0
+<var:"radius" label:"Radius" desc:"Radius to darken" type:1 min:0,0,0,0 max:100,100,100,100 defValue:50,50,50,50 value:50,50,50,50 /var>
+<var:"vertpos" label:"Vertical Position" desc:"Adjust Vertical Position" type:1 min:-1,-1,-1,-1 max:1,1,1,1 defValue:0.,0.,0.,0. value:0.,0.,0.,0. /var>
+<var:"darkness" label:"Adjust Darkness" desc:"Adjust Darkness" type:1 min:0,0,0,0 max:1,1,1,1 defValue:1.,1.,1.,1. value:1.,1.,1.,1. /var>
+
+//        char *name;                 //cannot have spaces or special characters
+//        char *desc;
+//        char *iconFilename;
+//        char *vertexShaderFile;
+//        char *fragmentShaderFile;
+//        char *auxStream;            //optional, file or url for aux input, can be audio only
+//        char *customGeomFile;       //optional, file for geometery to use
+//        int type;                   //0=transition, 1=fx
+//        int numModes;               //can be zero
+//        ssFXModeType *modes;        //array of modes
+//        int numVars;                //number of variables global to the effect
+//        ssFXVarType *vars;          //array of variables
+//        bool usesAux;               //uses the aux stream
+//        bool usesInA;               //uses A input
+//        bool usesInB;               //uses B input
+//        bool usesFA;                //uses Feedback Channel A
+//        bool usesFB;                //uses Feedback Channel B
+//        bool usesFL;                //uses Feedback Channel for the Layer
+//        int usesAudio;              //0=no audio, 1=audio of video, 2=audio of auxStream, 3=audio of renderer
