@@ -16,7 +16,7 @@
 <usesInB:0
 <var:"radius" label:"Radius" desc:"Radius to darken" type:1 min:0,0,0,0 max:100,100,100,100 defValue:50,50,50,50 value:50,50,50,50 /var>
 <var:"vertpos" label:"Vertical Position" desc:"Adjust Vertical Position" type:1 min:-1,-1,-1,-1 max:1,1,1,1 defValue:0.,0.,0.,0. value:0.,0.,0.,0. /var>
-<var:"darkness" label:"Adjust Darkness" desc:"Adjust Darkness" type:1 min:0,0,0,0 max:1,1,1,1 defValue:1.,1.,1.,1. value:1.,1.,1.,1. /var>
+<var:"ppacity" label:"Opacity" desc:"Adjust Opacity" type:1 min:0,0,0,0 max:1,1,1,1 defValue:1.,1.,1.,1. value:1.,1.,1.,1. /var>
 
 //        char *name;                 //cannot have spaces or special characters
 //        char *desc;
